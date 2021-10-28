@@ -4,6 +4,8 @@ WORKDIR /go/src/code
 
 COPY . .
 
+RUN go build
+
 FROM scratch
 
 WORKDIR /go/src/code
